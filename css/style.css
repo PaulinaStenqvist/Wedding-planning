@@ -27,3 +27,22 @@ html{
 html::-webkit-scrollbar{
     width: 1.rem;
 }
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--pink);
+}
+
+body {
+    background: url();
+    block-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.header {
+    position: relative;
+    z-index: 1000;
+}
