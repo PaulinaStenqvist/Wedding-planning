@@ -55,7 +55,6 @@ body {
 
 .heading {
     text-align: center;
-    text-transform: uppercase;
     color: var(--black);
     margin-bottom: 2rem;
     font-size: 5rem;
@@ -141,7 +140,6 @@ section {
 .home .slide .content h3{
     font-size: 3rem;
     color: var(--black);
-    text-transform: uppercase;
 }
 
 .home .slide .content p{
@@ -206,7 +204,6 @@ section {
 .services .slide .content h3 {
     font-size: 2rem;
     color: var(--black);
-    text-transform: uppercase;
 }
 
 .services .slide .content p {
@@ -223,13 +220,12 @@ section {
 }
 
 .about img{
-    width 100%;
+    width: 100%;
     margin-bottom: 3rem;
 }
 
 .about h3{
     font-size: 3rem;
-    text-transform: uppercase;
     color: var(--black);
 }
 
@@ -326,7 +322,6 @@ section {
     color: var(--black);
     text-align: center;
     padding: 1rem;
-    text-transform: uppercase;
 }
 
 .pricing .box-container{
@@ -345,7 +340,6 @@ section {
 
 .pricing .box-container .box h3{
     font-size: 2rem;
-    text-transform: uppercase;
     color: var(--black);
 }
 
@@ -425,7 +419,7 @@ section {
     flex: 1 1 41rem;
 }
 .contact form .flex .inputBox span{
-    display: block;
+    display: flex;
     margin-bottom: 1rem;
     font-size: 2rem;
     color: var(--black);
@@ -434,7 +428,7 @@ section {
 .contact form .flex .inputBox input,
 .contact form .flex .inputBox textarea,
 .contact form .flex .inputBox select{
-    width: 100%;
+    width: 95%;
     padding: 1.2rem 1.4rem;
     border: var(--border);
     border-radius: .5rem;
@@ -466,7 +460,6 @@ section {
 
 .footer .box-container .box h3{
     font-size: 2.2rem;
-    text-transform: uppercase;
     color: var(--black);
     padding: 1 rem 0;
 
