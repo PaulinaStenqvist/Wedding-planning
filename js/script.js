@@ -41,3 +41,24 @@ var swiper = new Swiper(".service-slider", {
         },
     },
 });
+
+var swiper = new Swiper(".reviews-slider", {
+    loop:true,
+    spaceBetween: 20,
+    grabCursor:true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        450: {
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 2,
+        },
+        1000: {
+            slidesPerView: 3,
+        },
+    },
+});
