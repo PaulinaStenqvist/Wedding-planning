@@ -418,9 +418,12 @@ section {
 .contact form .flex{
     display: flex;
     flex-wrap: wrap;
-    gap:2rem;
+    gap:1.5rem;
 }
 
+.contact form .flex .inputBox{
+    flex: 1 1 41rem;
+}
 .contact form .flex .inputBox span{
     display: block;
     margin-bottom: 1rem;
@@ -435,7 +438,17 @@ section {
     padding: 1.2rem 1.4rem;
     border: var(--border);
     border-radius: .5rem;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
+    background: var(--transparent-white);
+}
+
+.contact form .flex .inputBox textarea{
+    height: 20rem;
+    resize: none;
+}
+
+.contact form .btn{
+    margin-top: 2rem;
 }
 
 
@@ -551,6 +564,11 @@ section {
     }
     .services .slide .content p {
         font-size: 1.3rem;
+    }
+
+    .content form .btn{
+        display: block;
+        width: 100%;
     }
     
 }
