@@ -5,7 +5,7 @@
     --white: #fff;
     --black: #222;
     --transparent-white:rgba(255,255,255,.3);
-    --border: .2rem solid var(--black);
+    --border: .2rem solid var(--silver);
     --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
 }
 
@@ -38,9 +38,15 @@ html::-webkit-scrollbar-thumb{
 
 body {
     background: url(../img/background.png) no-repeat;
+    background-size: cover;
     block-size: cover;
     background-position: center;
     background-attachment: fixed;
+    
+}
+
+.url{
+    opacity: .5;
 }
 
 .container {
@@ -49,7 +55,7 @@ body {
     background: var(--transparent-white);
     backdrop-filter: blur(.5rem);
     max-width: 1200px;
-    margin:10rem auto;
+    margin:5rem auto;
     box-shadow: var(--box-shadow);
 }
 
@@ -73,7 +79,7 @@ body {
 }
 
 .btn:hover{
-    background: var(--black);
+    background: var(--pink);
     color: var(--white);
 }
 
@@ -430,7 +436,7 @@ section {
 .contact form .flex .inputBox select{
     width: 95%;
     padding: 1.2rem 1.4rem;
-    border: var(--border);
+    border: .1rem;
     border-radius: .5rem;
     font-size: 1.7rem;
     background: var(--transparent-white);
@@ -509,7 +515,6 @@ section {
     }
     .container{
        margin: 5rem; 
-       padding-bottom: 30rem;
     }   
 }
 
@@ -532,15 +537,15 @@ section {
     background: var(--white);
     border-top: var(--border);
     padding: 2rem;
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    transition: .2s linear;
+    /* clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: .2s linear; */
 }
 
-.header .navbar .active{
+/* .header .navbar .active{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 
 
-}
+} */
 .header .navbar a{
     display: block;
     margin: 2rem;
