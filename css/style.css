@@ -59,40 +59,17 @@ body {
     box-shadow: var(--box-shadow);
 }
 
-.heading {
-    text-align: center;
-    color: var(--black);
-    margin-bottom: 2rem;
-    font-size: 5rem;
-}
-
-.btn{
-    display: inline-block;
-    padding: 1rem 3rem;
-    border: var(--border);
-    background: var(--transparent-white);
-    color: var(--black);
-    border-radius: .5rem;
-    font-size: 1.7rem;
-    text-transform: capitalize;
-    margin-top: 1rem;
-}
-
-.btn:hover{
-    background: var(--pink);
-    color: var(--white);
-}
-
-section {
+.section {
     padding: 2rem;
 }
 .header {
-    position: relative;
-    z-index: 1000;
-    background: var(--transparent-white);
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    background: var(--transparent-white);
+    padding: 20px 50px;
+    position: relative;
+    list-style: none;
 }
 
 .toggle-button{
@@ -109,48 +86,54 @@ section {
     margin: 3px 0px;
 }
  
-/* .navbar {
-    list-style: none;
-    display: flex;
-} */
-
-/* .navbar li{
-    margin-right: 25px;
-} */
-
-/* .navbar li a{
-    font-size: 17px;
-    color: #fff;
-    text-decoration: none;
-    transition: 0.4s ease;
-} */
-
-/* .navbar li a:hover{
-    color: #f5325c;
-} */
-
 .header .logo{
     font-size: 2.5rem;
     color:var(--black);
 }
 
+.header li {
+    margin-right: 25px;
+}
+.header .navbar{
+    list-style: none;
+    display:flex ;
+}
 .header .navbar a{
     font-size: 2rem;
-    margin-left: 2rem;
     color:var(--black);
+    text-decoration: none;
+    transition: 0.4s ease;
 }
 
 .header .navbar a:hover{
     color:var(--pink);
 }
 
-#menu-btn{
-    font-size: 2.5rem;
-    color:var(--black);
-    cursor: pointer;
-    display: none;
+
+
+
+.heading {
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 2rem;
+    font-size: 5rem;
+}
+.btn{
+    display: inline-block;
+    padding: 1rem 3rem;
+    border: var(--border);
+    background: var(--transparent-white);
+    color: var(--black);
+    border-radius: .5rem;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    margin-top: 1rem;
 }
 
+.btn:hover{
+    background: var(--pink);
+    color: var(--white);
+}
 .home {
     padding-bottom: 0;
 }
