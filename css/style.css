@@ -4,7 +4,9 @@
     --pink:#f5325c;
     --white: #fff;
     --black: #222;
+    --silver: #7a7a7a;
     --transparent-white:rgba(255,255,255,.3);
+    --transparent-silver:rgba(255,255,255,.6);
     --border: .2rem solid var(--silver);
     --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
 }
@@ -82,7 +84,7 @@ body {
     width: 35px;
     height: 4px;
     border-radius: 5px;
-    background-color: #131313;
+    background-color: var(--silver);
     margin: 3px 0px;
 }
  
@@ -477,8 +479,13 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 2rem;
-}
+    margin-top: 20px;
 
+}
+.footer .box-container .box {
+    margin-top: 5px;
+  
+}
 .footer .box-container .box h3{
     font-size: 2.2rem;
     color: var(--black);
@@ -545,7 +552,7 @@ body {
     flex-direction: column;
     position: absolute;
     width: 100%;
-    background-color: var(--transparent-white); /*bakgrundsfärg menyn*/
+    background-color: var(--transparent-silver); /*bakgrundsfärg menyn*/
     padding: 25px;
     top: 100%;
     left: 0;
@@ -560,6 +567,9 @@ body {
     display: block;
     z-index: 2;
   }
+  .box-container{
+    text-align: center;
+}
 }
     
 
@@ -579,4 +589,5 @@ body {
         width: 100%;
     }
     
+   
 }
