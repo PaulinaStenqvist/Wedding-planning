@@ -442,6 +442,7 @@ body {
 
 .contact form .flex .inputBox{
     flex: 1 1 41rem;
+    
 }
 .contact form .flex .inputBox span{
     display: flex;
@@ -458,7 +459,7 @@ body {
     border: .1rem;
     border-radius: .5rem;
     font-size: 1.7rem;
-    background: var(--transparent-white);
+    background: var(--transparent-silver);
 }
 
 .contact form .flex .inputBox textarea{
@@ -480,6 +481,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 2rem;
     margin-top: 20px;
+    margin-left: 40px;
 
 }
 .footer .box-container .box {
