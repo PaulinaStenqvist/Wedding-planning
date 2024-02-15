@@ -96,9 +96,9 @@ body {
 .header li {
     margin-right: 25px;
 }
-.header .navbar{
-    list-style: none;
-}
+
+list-style: none;
+        display:flex;
 .header .navbar a{
     font-size: 2rem;
     color:var(--black);
@@ -260,10 +260,14 @@ body {
     color: var(--black);
 }
 
+.team {
+    margin-top: 4rem;
+}
 .team .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 1.5rem;
+
 }
 
 .team .box-container .box{
@@ -540,7 +544,12 @@ body {
        margin: 5rem; 
     }   
 }
-
+@media (min-width:768px) {
+    .header .navbar{
+        list-style: none;
+        display:flex;
+    }
+}
 @media (max-width:768px){
     .header{
         padding: 20px 25px;
@@ -553,7 +562,8 @@ body {
     flex-direction: column;
     position: absolute;
     width: 100%;
-    background-color: var(--transparent-silver); /*bakgrundsfärg menyn*/
+    background-color: #f5325c;
+    /* background-color: var(--transparent-silver); bakgrundsfärg menyn */
     padding: 25px;
     top: 100%;
     left: 0;
@@ -566,7 +576,7 @@ body {
   }
   .navbar.active{
     display: block;
-    z-index: 2;
+    z-index: 1;
   }
   .box-container{
     text-align: center;
